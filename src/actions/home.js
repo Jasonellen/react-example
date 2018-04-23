@@ -17,7 +17,7 @@ export const getCount = () => (dispatch, getState) => {
 }
 
 // 计算总价格
-export const getPrice = (data) => (dispatch, getState) => {
+export const getPrice = () => (dispatch, getState) => {
 	let _data = getState().home.data
 	let totalPrice = 0;
 	_data.map(function(item){

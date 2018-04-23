@@ -6,7 +6,7 @@ import { bindActionCreators } from 'redux'
 import {connect} from 'react-redux';
 import * as homeAction from 'actions/home.js';
 
-// import tu1 from 'static/1.jpg'
+import tu1 from 'static/1.jpg'
 
 class Index extends Component {
 	componentDidMount(){
@@ -41,6 +41,8 @@ class Index extends Component {
 						})
 					}
 				</Carousel>*/}
+				<img src={tu1} style={{width:100}} alt=""/>
+				<div className="tu2"></div>
 				<ul>
 					{
 						data.length>0
